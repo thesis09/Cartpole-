@@ -249,11 +249,27 @@ def main(args):
 
     results_sorted = sorted([m for _,m in results], key=lambda x: x["mean_return"], reverse=True)
     best = results_sorted[0]
-    print("\nBest checkpoint:", best["ckpt"], "mean_return:", best["mean_return"])
+    try:
+        with open("quick_eval_best.py", "r") as f:
+            content = f.read()
+        import re
+        # Find any CKPT assignment line using regex
+        new_content = re.sub(
+            r'CKPT\s*=\s*"[^"]*"',
+            f'CKPT = "{best["ckpt"]}"',
+            content
+        )
+        with open("quick_eval_best.py", "w") as f:
+            f.write(new_content)
+        print(f"Updated quick_eval_best.py with best checkpoint: {best['ckpt']}")
+    except Exception as e:
+        print(f"Failed to update quick_eval_best.py: {e}")
+    
     # save results
     ts = int(time.time())
     with open(f"eval_summary_{ts}.json", "w") as f:
         json.dump({"results": results_sorted}, f, indent=2)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
