@@ -10,9 +10,6 @@ gymnasium>=0.28.0
 # Optional: if you prefer legacy gym
 # gym>=0.21.0
 
-# Utilities
-tqdm>=4.64
-Pillow>=9.0
 
 # (Optional) If you intend to use DINO-v2 model utilities that rely on timm or a particular repo:
 # timm>=0.6.12
