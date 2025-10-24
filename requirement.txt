@@ -1,0 +1,24 @@
+# Minimal requirements for Cartpole--main (single-file project)
+# Use an appropriate torch wheel for your CUDA version if you need GPU acceleration.
+
+numpy>=1.22
+matplotlib>=3.5
+
+# PyTorch / torchvision - pick versions that match your CUDA toolkit.
+# Example (CUDA 11.8):
+# pip install torch==2.2.0+cu118 torchvision==0.15.2+cu118 -f https://download.pytorch.org/whl/cu118/torch_stable.html
+# For CPU-only installs use the CPU wheel from pytorch.org
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Gymnasium (modern gym API)
+gymnasium>=0.28.0
+
+# Optional
+# timm (if you want additional vision models / helpers)
+# timm>=0.6.12
+
+# Notes:
+# - Prefer installing torch from the official PyTorch index for CUDA-enabled builds.
+# - If you are running on a GPU and want deterministic CuBLAS behavior, set
+#   CUBLAS_WORKSPACE_CONFIG=:4096:8 (or :16:8) in your environment before launching Python.
