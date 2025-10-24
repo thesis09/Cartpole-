@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23130885/README.md)
 Cartpole - DINO-v2 / ViT + Transformer-XL PPO
 
 This repository contains a small research/experimental setup that trains a recurrent transformer (Transformer-XL style memory) policy on Gym environments using PPO. A Vision Transformer (ViT) backbone (or an identity backbone for vector observations) is used to extract features which are projected and fed to a recurrent policy.
