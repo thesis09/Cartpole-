@@ -13,5 +13,14 @@ Goals
 - Provide an experimental RL training loop that can work with image or vector observations.
 - Make evaluation and playback robust and reproducible (seed support + deterministic options).
 
-License
-- See the `LICENSE` file in the repository root.
+Key output should achive 
+- Performance Statistics:(`video_recorder.py` file best case)
+- INFO:   Mean Return: 500.00 ± 0.00
+- INFO:   Median Return: 500.00
+- INFO:   Min/Max Return: 500.00 / 500.00
+- INFO:   Mean Length: 500.0 ± 0.0
+
+- Performance Statistics: (from `quick_eval_best.py` file)
+- INFO: DET eval mean/std: 411.20 136.11 on RTX 3060 12GB (locally run)
+- INFO: DET eval mean/std: 500.00 0.0 (best case) on H100 (cloud)
+
