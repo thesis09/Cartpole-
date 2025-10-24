@@ -1,0 +1,194 @@
+{
+  "results": [
+    {
+      "ckpt": "checkpoints/ckpt_15360.pth",
+      "num_episodes": 20,
+      "mean_return": 483.2,
+      "std_return": 73.22950225148332,
+      "median_return": 500.0,
+      "min_return": 164.0,
+      "max_return": 500.0,
+      "mean_length": 483.2,
+      "std_length": 73.22950225148332,
+      "value_pred_mean": 25.506758993232488,
+      "value_pred_std": 2.6220025945824035,
+      "episode_value_bias_mean": -457.6896453569505,
+      "episode_value_mse": 214845.9446254669,
+      "action_counts": {
+        "0": 4833,
+        "1": 4831
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_10240.pth",
+      "num_episodes": 20,
+      "mean_return": 350.5,
+      "std_return": 154.3471736054794,
+      "median_return": 384.0,
+      "min_return": 116.0,
+      "max_return": 500.0,
+      "mean_length": 350.5,
+      "std_length": 154.3471736054794,
+      "value_pred_mean": 21.928868866579,
+      "value_pred_std": 5.400729444307172,
+      "episode_value_bias_mean": -327.63287268133735,
+      "episode_value_mse": 131830.3140856172,
+      "action_counts": {
+        "0": 3472,
+        "1": 3538
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_40960.pth",
+      "num_episodes": 20,
+      "mean_return": 185.15,
+      "std_return": 15.146864361972748,
+      "median_return": 184.0,
+      "min_return": 168.0,
+      "max_return": 239.0,
+      "mean_length": 185.15,
+      "std_length": 15.146864361972748,
+      "value_pred_mean": 28.001977324067276,
+      "value_pred_std": 2.0995278284343546,
+      "episode_value_bias_mean": -157.15729290105705,
+      "episode_value_mse": 24924.438552561234,
+      "action_counts": {
+        "0": 1789,
+        "1": 1914
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_25600.pth",
+      "num_episodes": 20,
+      "mean_return": 132.05,
+      "std_return": 5.014728307695243,
+      "median_return": 131.5,
+      "min_return": 124.0,
+      "max_return": 142.0,
+      "mean_length": 132.05,
+      "std_length": 5.014728307695243,
+      "value_pred_mean": 27.026687554182857,
+      "value_pred_std": 0.4056744568863088,
+      "episode_value_bias_mean": -105.0229212846428,
+      "episode_value_mse": 11055.065353942118,
+      "action_counts": {
+        "0": 1235,
+        "1": 1406
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_35840.pth",
+      "num_episodes": 20,
+      "mean_return": 106.7,
+      "std_return": 14.819244245237341,
+      "median_return": 101.0,
+      "min_return": 92.0,
+      "max_return": 152.0,
+      "mean_length": 106.7,
+      "std_length": 14.819244245237341,
+      "value_pred_mean": 22.220434734948686,
+      "value_pred_std": 1.6387324334279416,
+      "episode_value_bias_mean": -84.47296350338138,
+      "episode_value_mse": 7356.704947022488,
+      "action_counts": {
+        "0": 986,
+        "1": 1148
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_30720.pth",
+      "num_episodes": 20,
+      "mean_return": 100.4,
+      "std_return": 18.142215961673482,
+      "median_return": 103.5,
+      "min_return": 28.0,
+      "max_return": 118.0,
+      "mean_length": 100.4,
+      "std_length": 18.142215961673482,
+      "value_pred_mean": 27.229646400626436,
+      "value_pred_std": 2.0437504555326202,
+      "episode_value_bias_mean": -73.32828405064856,
+      "episode_value_mse": 5675.512208556815,
+      "action_counts": {
+        "0": 907,
+        "1": 1101
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_20480.pth",
+      "num_episodes": 20,
+      "mean_return": 93.15,
+      "std_return": 11.744253914148825,
+      "median_return": 93.5,
+      "min_return": 71.0,
+      "max_return": 118.0,
+      "mean_length": 93.15,
+      "std_length": 11.744253914148825,
+      "value_pred_mean": 13.232563758497909,
+      "value_pred_std": 1.7556698784488862,
+      "episode_value_bias_mean": -79.92929296757389,
+      "episode_value_mse": 6524.424912176304,
+      "action_counts": {
+        "0": 839,
+        "1": 1024
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_46080.pth",
+      "num_episodes": 20,
+      "mean_return": 92.55,
+      "std_return": 5.589946332479409,
+      "median_return": 93.5,
+      "min_return": 84.0,
+      "max_return": 102.0,
+      "mean_length": 92.55,
+      "std_length": 5.589946332479409,
+      "value_pred_mean": 27.03705509027103,
+      "value_pred_std": 2.6521585389591382,
+      "episode_value_bias_mean": -65.52041603481007,
+      "episode_value_mse": 4322.81628334542,
+      "action_counts": {
+        "0": 812,
+        "1": 1039
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_50176.pth",
+      "num_episodes": 20,
+      "mean_return": 83.95,
+      "std_return": 8.440823419548593,
+      "median_return": 82.5,
+      "min_return": 73.0,
+      "max_return": 103.0,
+      "mean_length": 83.95,
+      "std_length": 8.440823419548593,
+      "value_pred_mean": 27.518552240550058,
+      "value_pred_std": 0.7190432342666775,
+      "episode_value_bias_mean": -56.42839316595333,
+      "episode_value_mse": 3255.925581955846,
+      "action_counts": {
+        "0": 734,
+        "1": 945
+      }
+    },
+    {
+      "ckpt": "checkpoints/ckpt_5120.pth",
+      "num_episodes": 20,
+      "mean_return": 32.85,
+      "std_return": 4.452808102759427,
+      "median_return": 32.0,
+      "min_return": 25.0,
+      "max_return": 41.0,
+      "mean_length": 32.85,
+      "std_length": 4.452808102759427,
+      "value_pred_mean": 10.96311678516266,
+      "value_pred_std": 1.0594841482592585,
+      "episode_value_bias_mean": -21.890348536089036,
+      "episode_value_mse": 498.79178212971044,
+      "action_counts": {
+        "0": 301,
+        "1": 356
+      }
+    }
+  ]
+}
