@@ -8,6 +8,8 @@
 
 > Trains a **Vision Transformer (ViT-B/16) + Transformer-XL + PPO** agent on CartPole-v1 using an NVIDIA H100, then **compresses and deploys it to a consumer RTX 3060** — retaining **96% of peak performance (480+/500)** across a ~17× compute reduction. This project is a direct study in hardware-aware ML optimization.
 
+> Author is open to RL + LLM engineering roles (India onsite / worldwide remote). Contact: kaustubhkubitkar@gmail.com
+
 ---
 
 ## 📊 Results
